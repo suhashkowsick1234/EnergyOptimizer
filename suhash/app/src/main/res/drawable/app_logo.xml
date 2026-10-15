@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Battery Body -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M350,100 L162,100 C145,100 132,113 132,130 L132,430 C132,447 145,460 162,460 L350,460 C367,460 380,447 380,430 L380,130 C380,113 367,100 350,100 Z M360,430 C360,435 355,440 350,440 L162,440 C157,440 152,435 152,430 L152,130 C152,125 157,120 162,120 L350,120 C355,120 360,125 360,130 L360,430 Z" />
+    <!-- Battery Tip -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M216,70 L296,70 C305,70 312,77 312,86 L312,100 L200,100 L200,86 C200,77 207,70 216,70 Z" />
+    <!-- Battery Segments (Inner) -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M172,140 L340,140 L340,220 L172,220 Z" />
+    <path
+        android:fillColor="#283593"
+        android:pathData="M172,240 L340,240 L340,320 L172,320 Z" />
+    <path
+        android:fillColor="#283593"
+        android:pathData="M172,340 L340,340 L340,420 L172,420 Z" />
+    <!-- Lightning Bolt -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M393,128 L200,300 L290,300 L230,480 L423,260 L333,260 Z" />
+</vector>
